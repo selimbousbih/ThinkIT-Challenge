@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SmartyHome" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">@color/white</item>
+        <item name="colorOnPrimary">@color/blue</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/gray</item>
+        <item name="colorSecondaryVariant">@color/white</item>
+        <item name="colorOnSecondary">@color/blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/light</item>
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@color/light</item>
+        <item name="android:textViewStyle">@style/Theme.SmartyHome.TextView</item>
+        <item name="materialButtonStyle">@style/Theme.SmartyHome.Button</item>
+        <item name="editTextStyle">@style/Theme.SmartyHome.EditText</item>
+    </style>
+
+
+    <style name="Theme.SmartyHome.TextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+    <style name="Theme.SmartyHome.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:background">@drawable/background_blue_rounded</item>
+        <item name="backgroundTintMode">add</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Theme.SmartyHome.EditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/background_white_border</item>
+    </style>
+</resources>

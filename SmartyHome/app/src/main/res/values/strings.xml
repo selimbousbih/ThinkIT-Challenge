@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Smarty Home</string>
+    <string name="smarty">Smarty</string>
+    <string name="welcome_home">Welcome home</string>
+    <string name="your_name">Your Name</string>
+    <string name="_continue">Continue</string>
+    <string name="error_name">Please enter your name in order to continue.</string>
+    <string name="welcome_person">Welcome, %s!</string>
+
+    <plurals name="devices">
+        <item quantity="one">%d Device</item>
+        <item quantity="other">%d Devices</item>
+    </plurals>
+</resources>
